@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+.soc-wrapper {
+  padding: 3px 0 0;
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+  float:left;
+  text-decoration:none;   
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  line-height: 32px;
+  font-family: Entypo;
+  font-size: 18px !important;
+  text-align: center;
+  color: #e8e8e8 !important;
+  border-radius: 30px;
+  background: #9e7ead;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+
+
+
+.social {
+ /* box-shadow: 
+    rgb(210, 210, 210) 1px 1px,
+	rgb(210, 210, 210) 2px 2px,	
+    rgb(211, 211, 211) 3px 3px,
+	rgb(211, 211, 211) 4px 4px,	
+    rgb(212, 212, 212) 5px 5px,	
+    rgb(213, 213, 213) 6px 6px,	
+    rgb(214, 214, 214) 7px 7px,
+	rgb(215, 215, 215) 8px 8px,
+	rgb(216, 216, 216) 9px 9px,	
+    rgb(217, 217, 217) 10px 10px,
+    rgb(218, 218, 218) 11px 11px,	
+    rgb(219, 219, 219) 12px 12px,	
+    rgb(220, 220, 220) 13px 13px,	
+    rgb(221, 221, 221) 14px 14px;    */
+	
+   text-shadow: 
+   
+    #80668c 1px 1px,
+	#82688f 2px 2px,
+    #846a91 3px 3px,
+	#876c94 4px 4px,
+	#8a6e96 5px 5px,
+    #8c7099 6px 6px,
+    #8e729c 7px 7px,
+    #91739e 8px 8px,
+    #9577a3 9px 9px,
+    #997aa8 10px 10px,	
+    #997aa8 11px 11px,
+    #997aa8 12px 12px,
+    #9e7ead 13px 13px,
+    #9e7ead 14px 14px,  
+    #9e7ead 15px 15px,      
+    #9e7ead 16px 16px;
+}
+
+/*
+{text-shadow:
+ #745d80 1px 1px,
+	#765f82 2px 2px,
+    #796185 3px 3px,
+	#7b6387 4px 4px,
+	#7d658a 5px 5px,
+    #80668c 6px 6px,
+    #82688f 7px 7px,
+    #846a91 8px 8px,
+    #876c94 9px 9px,
+    #8a6e96 10px 10px,
+	
+    #8c7099 11px 11px,
+    #8e729c 12px 12px,
+    #91739e 13px 13px,
+    #9577a3 14px 14px,  
+    #997aa8 15px 15px,      
+    #9e7ead 16px 16px;	} */
+	
+
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
