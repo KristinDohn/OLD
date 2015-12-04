@@ -44,3 +44,28 @@ a.projectdetail:hover { background: #ccc;text-shadow:none;color:#111;}
 /* FOR USE IN TEXT */
 .projdetail { background: #2ba6cb; font-weight:800; color:#111; padding: 7px 7px 6px 7px; font-size: 12px; border-radius: 3px; -webkit-transition-property: color, background; -webkit-transition-duration: 1s, 1s; }
 .projdetail:hover {background: #ccc; color: #111;  }
+
+/*
+
+MAIN   #9e7ead
+
+very light    cdb4d9
+              c3a3d1
+
+med dark    8f6f9d
+
+             785a86
+Very Dark    6f507d
+
+
+
+
+
+
+
+
+
+
+
+
+
